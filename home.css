@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-family: Muli;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    
+}
+.sol{
+    color: #cccc;
+    background-color: hwb(0 13% 87%);
+    width: 525px;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.sol .aramabtn{
+    padding: 0px 25px;
+}
+.logo{
+margin: 0px 0px 70px;
+height: 23.24px;
+width: 240px;
+}
+.logo2{
+    width: 176.02px;
+}
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.alan {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.sağ2{
+    margin-top: 200px;
+    flex-direction: row;
+    display: flex;
+}
+.ad{
+    color: white;
+    line-height: 60px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sol2{
+    position: absolute;
+    margin-left: 26%;
+}
+.name{
+  width: 92.1%;
+}
+.strings{
+  margin-top: -55px;
+  width: 76%;
+}
+.aramabtn {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;
+}
+.dishat{
+    position:absolute;clear:both;width:18%;z-index:1;transform:translateZ(0)
+}
+.dishat,.dishat *{
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box
+}
+.dishat:after{
+    content:'';clear:both;display:table;
+}
+.dishat p{
+    letter-spacing:0
+}
+.dishat a{
+    text-decoration:none
+}
+.dishat a:hover{
+    text-decoration:none
+}
+.oynama{
+    width:100%;height:20%;float:left;clear:both;
+}
+.oynama .siyahlik{
+  width: 100%;
+  height: 95%;
+  position:absolute;top:0;bottom:0;left:0;right:0;background-repeat:no-repeat;background-position:center;background-size:cover;animation:loris 8s ease-in-out infinite 1s;background-blend-mode:multiply;-webkit-box-shadow:inset 0 0 0 9px rgba(255,255,255,.3);-moz-box-shadow:inset 0 0 0 9px rgba(255,255,255,.3);box-shadow:inset 0 0 0 9px rgba(255,255,255,.3)}
+  @keyframes loris{0%{border-radius:60% 40% 30% 70%/60% 30% 70% 40%}50%{border-radius:30% 60% 70% 40%/50% 60% 30% 60%}100%{border-radius:60% 40% 30% 70%/60% 30% 70% 40%}
+}
+.oynama img{
+    min-width:100%;position:static;opacity:0;
+}
+img{
+  max-width:100%;
+  vertical-align:middle;height:auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.resim{
+margin-bottom:calc(0 * 100%);
+}
+.arama {
+    height: 50px;
+    width: 200px;
+    border: none;
+    background:none;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(85, 85, 85);  
+}
+.arama:focus{
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+p {
+    color: #ccc;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.item{
+    margin-left: 19px;
+    font-size: 18px
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+}
+.alanalti{
+    width: 149px;
+    height: 10px;
+    margin-top: 50px;
+}
+.araboşluk{
+  display: none;
+}
+.list{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+#toggler,.navbar label{
+  color: #ffffff;
+  display: none;
+}
+@media screen and
+(max-width: 1040px){
+  .m{
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 45px;
+    z-index: 2;
+    background-color: #0b0a0c;
+  }
+  .sol2{
+    width: 100%;
+    margin-top: 500px;
+    margin-left: 0px;
+  }
+  .sağ{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .list{
+    flex-direction: column;
+    margin-top: 45px;
+    text-align: left;
+  }
+  .navbar label{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #toggler:checked ~ .m{
+    height: 330px;
+    display: block;
+  }
+  #toggler:disabled ~ .m{
+    height: 0px;
+  }
+  .name{
+    margin-top: 4%;
+    width: 100%;
+  }
+  .strings{
+    margin-top: 25px;
+    width: 100%;
+  }
+}
+.ust{
+    position: absolute;
+    background-color: #0b0e13;
+    align-items: center;
+    width: 100%;
+    height: 71.5px;
+    padding: 20px;
+}
+.içi{
+    width: 102%;
+    color: #CCCCCC;
+}
+.menu {
+    color: #cccc;
+    width: 525px;
+    height: 100%;
+    background-color: hwb(0 13% 87%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+  }
+  .menu a {
+    width: 230px;
+    height: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .ust .içi .icon {
+    display: none;
+  }
+  .men {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    padding-top: 90px;
+    font-size: 18px;
+    background-color: #CCCCCC;
+  }
+  .ust .içi .icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+   
+  @media screen and (max-width: 1040px) {
+    .menu a{display: none;}
+    .ust .içi a.icon{
+      float: right;
+      display: block;
+    }
+    .dishat{
+      width: 55%;
+      margin-top: -50px;
+      position: absolute;
+    }
+    .menu .sol{display: none;}
+    .ust .içi a.icon{
+        float: right;
+        display: block;
+      }
+    .menu{display: none;}
+    .ust .içi a.icon{
+        float: right;
+        display: block;
+      }
+      .anasayfa{
+        width: 1500px;
+      }
+      .ad, .sol2 a{
+        position: absolute;
+      }
+      .ad{
+        font-size: 40px;
+      }
+      .yaziii{
+        margin-top: 170px;
+      }
+      .sol2{
+        position: absolute;
+        background-color: rgb(51, 51, 51);
+        padding-left: 20px;
+        margin-top: 50%;
+        width: 100%;
+        height: 30%;
+      }
+      .sağ2{
+        width: 100%;
+        background-color: rgb(51, 51, 51);
+        margin-left: -40px;
+        height: 100%;
+        position: absolute;
+      }
+  }
+  @media screen and (min-width: 1039px) {
+    .m{display: none;}
+    .araboşluk{display: none;}
+    .ust{display: none;}
+  }
+   
+  @media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .bi-search{
+    color: gray;
+    transform: rotate(90deg);
+  }
+.alt{
+    padding-top: 55px;
+}
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.alt p{
+    width: 260px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: #999;
+    font-family: "Montserrat";
+    line-height: 25px;
+}
+.sağ{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+    display: flex;
+}
+.anasayfa{
+    height: 931px;
+    width: 100%;
+    display: flex;
+}
